@@ -7,7 +7,6 @@ public class ComputerMain {
 
         Computer computer1 = new Computer.Builder()
                 .cpu("Intel i9")
-
                 .gpu("RTX 4090")
                 .ram("32GB")
                 .hdd("1TB SSD")
@@ -21,6 +20,7 @@ public class ComputerMain {
                 .cpu("Intel i5")
                 .ram("16GB")
                 .hdd("512GB SSD")
+                .os("Debian")
                 .build();
 
         Computer computer3=new Computer.Builder()
